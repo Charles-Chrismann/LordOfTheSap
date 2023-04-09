@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "ringbearer";
+  src: url("../assets/fonts/ringbearer/RINGM___.TTF");
+}
+@font-face {
+  font-family: "aniron";
+  src: url("../assets/fonts/aniron/anirm___.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body .home {
+  background: #000000;
+  display: grid;
+  place-items: center;
+  padding: 4rem 0;
+}
+body .intro-container {
+  background: #000000;
+  color: #f5142e;
+  font-family: aniron;
+}
+body .intro-container .appear-disappear {
+  display: grid;
+  place-items: center;
+  margin-bottom: 4rem;
+}
+body .intro-container .appear-disappear span {
+  grid-area: 1/1/2/2;
+  font-size: 1.8vw;
+  opacity: 0;
+}
+body .intro-container .rings {
+  padding: 0 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .intro-container .rings p {
+  font-size: 1vw;
+  opacity: 0;
+}
+body .intro-container .rings p:first-child {
+  font-size: 1.15vw;
+  margin: 1rem 0;
+}
+body .intro-container .rings p:last-child {
+  font-size: 1.15vw;
+  margin-top: 2rem;
+}
+body .intro-container .rings img {
+  height: 256px;
+  margin: 4rem 0 2rem;
+  opacity: 1y;
+}
+body .intro-container .unique-ring {
+  font-size: 2vw;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.minas-tirith {
+  position: relative;
+}
+.minas-tirith .minas-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 0 0 50% 50%;
+}
+.minas-tirith .minas-container canvas {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.minas-tirith .curved-texts {
+  display: flex;
+  padding: 0 10%;
+}
+.minas-tirith .curved-texts .text {
+  height: 400px;
+  width: 50%;
+  position: relative;
+}
+.minas-tirith .curved-texts .text .form {
+  height: 100%;
+  aspect-ratio: 1/1;
+  shape-outside: ellipse(50% 50% at 100% 50%);
+  shape-margin: 16px;
+  float: right;
+}
+.minas-tirith .curved-texts .text .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  display: block;
+}
+.minas-tirith .curved-texts .text:nth-child(2) {
+  text-align: right;
+}
+.minas-tirith .curved-texts .text:nth-child(2) .form {
+  float: left;
+  shape-outside: ellipse(50% 50% at 0% 50%);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'ringbearer';
+    src: url('../assets/fonts/ringbearer/RINGM___.TTF');
+}
+
+@font-face {
+    font-family: 'aniron';
+    src: url('../assets/fonts/aniron/anirm___.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    .home {
+        background: #000000;
+        display: grid;
+        place-items: center;
+        padding: 4rem 0;
+    }
+
+    .intro-container {
+        background: #000000;
+        color: #f5142e;
+        font-family: aniron;
+
+        .appear-disappear {
+            display: grid;
+            place-items: center;
+            span {
+                grid-area: 1 / 1 / 2 / 2;
+                font-size: 1.8vw;
+                opacity: 0; 
+            }
+            margin-bottom: 4rem;
+        }
+
+        .rings {
+            padding: 0 10%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                font-size: 1vw;
+                opacity: 0;
+                &:first-child {
+                    font-size: 1.15vw;
+                    margin: 1rem 0;
+                }
+
+                &:last-child {
+                    font-size: 1.15vw;
+                    margin-top: 2rem;
+                }
+            }
+            
+            img {
+                height: 256px;
+                margin: 4rem 0 2rem;
+                opacity: 1y;
+            }
+        }
+
+        .unique-ring {
+            font-size: 2vw;
+        }
+    }
+}
+
+.intro {
+    height: 100vh;
+}
+
+.argonath {
+
+    .argonath-container {
+        
+    }
+}
+
+.minas-tirith {
+    position: relative;
+
+    .minas-container {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        height: 100%;
+        aspect-ratio: 1/1;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        border-radius:  0 0 50% 50%;
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+    .curved-texts {
+        display: flex;
+        padding: 0 10%;
+
+
+        .text {
+                // display: flex;
+                // align-items: center;
+                
+                height: 400px;
+                width: 50%;
+                position: relative;
+
+            .form {
+                height: 100%;
+                aspect-ratio: 1/1;
+                shape-outside: ellipse(50% 50% at 100% 50%);
+                shape-margin: 16px;
+                float: right;
+
+            }
+            .content {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                height: auto;
+                display: block;
+            }
+    
+    
+            &:nth-child(2) {
+                text-align: right;
+                .form {
+                    float: left;
+                    shape-outside: ellipse(50% 50% at 0% 50%);
+                }
+            }
+        }
+    }
+}

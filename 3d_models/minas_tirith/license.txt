@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minas Tirith
+* source:	https://sketchfab.com/3d-models/minas-tirith-3837188c7b894bf2a4971d7f30e7dfdd
+* author:	thequartermexican (https://sketchfab.com/thequartermexican)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minas Tirith" (https://sketchfab.com/3d-models/minas-tirith-3837188c7b894bf2a4971d7f30e7dfdd) by thequartermexican (https://sketchfab.com/thequartermexican) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
