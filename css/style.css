@@ -19,6 +19,9 @@ body .home {
   place-items: center;
   padding: 4rem 0;
 }
+body .home img {
+  width: 50%;
+}
 body .intro-container {
   background: #000000;
   color: #f5142e;
@@ -54,7 +57,7 @@ body .intro-container .rings p:last-child {
   margin-top: 2rem;
 }
 body .intro-container .rings img {
-  height: 256px;
+  width: 90%;
   margin: 4rem 0 2rem;
   opacity: 1y;
 }

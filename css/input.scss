@@ -21,6 +21,9 @@ body {
         display: grid;
         place-items: center;
         padding: 4rem 0;
+        img{
+            width: 50%;
+        }
     }
 
     .intro-container {
@@ -61,7 +64,7 @@ body {
             }
             
             img {
-                height: 256px;
+                width: 90%;
                 margin: 4rem 0 2rem;
                 opacity: 1y;
             }
